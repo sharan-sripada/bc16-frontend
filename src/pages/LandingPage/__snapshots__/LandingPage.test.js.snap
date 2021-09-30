@@ -1,0 +1,392 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LandinPage renders correctly To match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiGrid-root makeStyles-gridClass-2 MuiGrid-container"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-7"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-column"
+      >
+        <div
+          class="MuiGrid-root makeStyles-step-4 MuiGrid-item MuiGrid-grid-xs-12"
+        >
+          <div
+            class="MuiPaper-root MuiStepper-root MuiStepper-horizontal MuiPaper-elevation0"
+          >
+            <div
+              class="MuiStep-root MuiStep-horizontal makeStyles-step-4"
+              color="primary"
+            >
+              <button
+                class="MuiButtonBase-root MuiStepButton-root MuiStepButton-horizontal"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiStepLabel-root MuiStepLabel-horizontal"
+                >
+                  <span
+                    class="MuiStepLabel-iconContainer"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiStepIcon-root MuiStepIcon-active MuiStepIcon-completed"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 0a12 12 0 1 0 0 24 12 12 0 0 0 0-24zm-2 17l-5-5 1.4-1.4 3.6 3.6 7.6-7.6L19 8l-9 9z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiStepLabel-labelContainer"
+                  >
+                    <span
+                      class="MuiTypography-root MuiStepLabel-label MuiStepLabel-completed MuiStepLabel-active MuiTypography-body2 MuiTypography-displayBlock"
+                    >
+                      <h4
+                        class="MuiTypography-root MuiTypography-h4 MuiTypography-colorPrimary"
+                      >
+                        Your Location
+                      </h4>
+                    </span>
+                  </span>
+                </span>
+                <span
+                  class="MuiTouchRipple-root MuiStepButton-touchRipple"
+                />
+              </button>
+            </div>
+            <div
+              class="MuiStep-root MuiStep-horizontal makeStyles-step-4"
+              color="secondary"
+            >
+              <button
+                class="MuiButtonBase-root MuiStepButton-root MuiStepButton-horizontal"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiStepLabel-root MuiStepLabel-horizontal"
+                >
+                  <span
+                    class="MuiStepLabel-iconContainer"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiStepIcon-root"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <circle
+                        cx="12"
+                        cy="12"
+                        r="12"
+                      />
+                      <text
+                        class="MuiStepIcon-text"
+                        text-anchor="middle"
+                        x="12"
+                        y="16"
+                      >
+                        2
+                      </text>
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiStepLabel-labelContainer"
+                  >
+                    <span
+                      class="MuiTypography-root MuiStepLabel-label MuiTypography-body2 MuiTypography-displayBlock"
+                    >
+                      <h4
+                        class="MuiTypography-root MuiTypography-h4 MuiTypography-colorSecondary"
+                      >
+                        Job Location
+                      </h4>
+                    </span>
+                  </span>
+                </span>
+                <span
+                  class="MuiTouchRipple-root MuiStepButton-touchRipple"
+                />
+              </button>
+            </div>
+            <div
+              class="MuiStep-root MuiStep-horizontal makeStyles-step-4"
+              color="secondary"
+            >
+              <button
+                class="MuiButtonBase-root MuiStepButton-root MuiStepButton-horizontal"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiStepLabel-root MuiStepLabel-horizontal"
+                >
+                  <span
+                    class="MuiStepLabel-iconContainer"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root MuiStepIcon-root"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <circle
+                        cx="12"
+                        cy="12"
+                        r="12"
+                      />
+                      <text
+                        class="MuiStepIcon-text"
+                        text-anchor="middle"
+                        x="12"
+                        y="16"
+                      >
+                        3
+                      </text>
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiStepLabel-labelContainer"
+                  >
+                    <span
+                      class="MuiTypography-root MuiStepLabel-label MuiTypography-body2 MuiTypography-displayBlock"
+                    >
+                      <h4
+                        class="MuiTypography-root MuiTypography-h4 MuiTypography-colorSecondary"
+                      >
+                        Your Skills
+                      </h4>
+                    </span>
+                  </span>
+                </span>
+                <span
+                  class="MuiTouchRipple-root MuiStepButton-touchRipple"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item"
+        >
+          <hr
+            class="MuiDivider-root"
+          />
+        </div>
+        <div
+          class="MuiBox-root MuiBox-root-14"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item"
+          >
+            <h2
+              class="MuiTypography-root makeStyles-headline-5 MuiTypography-h2"
+            >
+              More than 2000 people are using Green Commute
+            </h2>
+          </div>
+        </div>
+        <div
+          class="MuiBox-root MuiBox-root-15"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item"
+          />
+          <div
+            class="MuiGrid-root MuiGrid-item"
+          >
+            <div>
+              <p
+                class="MuiTypography-root makeStyles-subHeadline-6 MuiTypography-body1"
+              >
+                Where do you stay?
+              </p>
+              <div
+                aria-expanded="false"
+                class="MuiAutocomplete-root makeStyles-autoComplete-11 MuiAutocomplete-hasClearIcon MuiAutocomplete-hasPopupIcon"
+                data-testid="autocomplete"
+                role="combobox"
+                variant="primary"
+              >
+                <div
+                  class="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+                >
+                  <div
+                    class="MuiInputBase-root MuiOutlinedInput-root makeStyles-textFieldStyle-3 MuiAutocomplete-inputRoot MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedStart MuiOutlinedInput-adornedStart MuiInputBase-adornedEnd MuiOutlinedInput-adornedEnd"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root makeStyles-inputIcon-13 MuiSvgIcon-colorSecondary"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zM7 9c0-2.76 2.24-5 5-5s5 2.24 5 5c0 2.88-2.88 7.19-5 9.88C9.92 16.21 7 11.85 7 9z"
+                      />
+                      <circle
+                        cx="12"
+                        cy="9"
+                        r="2.5"
+                      />
+                    </svg>
+                    <input
+                      aria-autocomplete="list"
+                      aria-invalid="false"
+                      autocapitalize="none"
+                      autocomplete="off"
+                      class="MuiInputBase-input MuiOutlinedInput-input MuiAutocomplete-input MuiAutocomplete-inputFocused MuiInputBase-inputAdornedStart MuiOutlinedInput-inputAdornedStart MuiInputBase-inputAdornedEnd MuiOutlinedInput-inputAdornedEnd"
+                      id="autocomplete"
+                      placeholder="Your Location"
+                      spellcheck="false"
+                      type="text"
+                      value=""
+                    />
+                    <div
+                      class="MuiAutocomplete-endAdornment"
+                    >
+                      <button
+                        aria-label="Clear"
+                        class="MuiButtonBase-root MuiIconButton-root MuiAutocomplete-clearIndicator"
+                        tabindex="-1"
+                        title="Clear"
+                        type="button"
+                      >
+                        <span
+                          class="MuiIconButton-label"
+                        >
+                          <svg
+                            aria-hidden="true"
+                            class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall"
+                            focusable="false"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                            />
+                          </svg>
+                        </span>
+                        <span
+                          class="MuiTouchRipple-root"
+                        />
+                      </button>
+                      <button
+                        aria-label="Open"
+                        class="MuiButtonBase-root MuiIconButton-root MuiAutocomplete-popupIndicator"
+                        tabindex="-1"
+                        title="Open"
+                        type="button"
+                      >
+                        <span
+                          class="MuiIconButton-label"
+                        />
+                        <span
+                          class="MuiTouchRipple-root"
+                        />
+                      </button>
+                    </div>
+                    <fieldset
+                      aria-hidden="true"
+                      class="PrivateNotchedOutline-root-16 MuiOutlinedInput-notchedOutline"
+                      style="padding-left: 8px;"
+                    >
+                      <legend
+                        class="PrivateNotchedOutline-legend-17"
+                        style="width: 0.01px;"
+                      >
+                        <span>
+                          ​
+                        </span>
+                      </legend>
+                    </fieldset>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiBox-root MuiBox-root-20"
+          >
+            <div
+              class="MuiGrid-root makeStyles-gridContainerMargin-9 MuiGrid-container"
+            >
+              <div
+                class="MuiGrid-root 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 MuiGrid-item"
+              >
+                <button
+                  class="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-base-21 makeStyles-small-22 MuiButton-containedPrimary"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiButton-label"
+                  >
+                    Next
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </button>
+              </div>
+              <div
+                class="MuiGrid-root makeStyles-gridItemMargin-10 MuiGrid-item"
+              >
+                <button
+                  class="MuiButtonBase-root MuiButton-root MuiButton-outlined makeStyles-base-21 makeStyles-small-22 MuiButton-outlinedPrimary"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiButton-label"
+                  >
+                    Skip
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root makeStyles-aqiClass-1 MuiGrid-container MuiGrid-item MuiGrid-align-items-xs-center MuiGrid-grid-xs-5"
+    >
+      <div
+        class="MuiGrid-root makeStyles-gridClass-28 MuiGrid-container MuiGrid-spacing-xs-6 MuiGrid-direction-xs-column MuiGrid-align-items-xs-center MuiGrid-justify-xs-center"
+      >
+        <div
+          align="center"
+          class="MuiGrid-root makeStyles-gridItem-29 MuiGrid-item MuiGrid-grid-xs-12"
+        >
+          <img
+            alt="map"
+            src="map1.png"
+          />
+        </div>
+        <div
+          class="MuiGrid-root makeStyles-margin-31 MuiGrid-container MuiGrid-item MuiGrid-align-items-xs-center MuiGrid-justify-xs-center MuiGrid-grid-xs-12"
+        />
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+        >
+          <h6
+            class="MuiTypography-root makeStyles-textClass-30 MuiTypography-subtitle1"
+          >
+            Enter location to know Time Air Quality Index (AQI)
+          </h6>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

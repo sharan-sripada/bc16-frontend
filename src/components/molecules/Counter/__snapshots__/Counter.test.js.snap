@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Counter renders correctly should match snapshot 1`] = `
+<DocumentFragment>
+  <h1
+    class="MuiTypography-root makeStyles-textClass-1 MuiTypography-h1"
+  >
+    153
+  </h1>
+  <h3
+    class="MuiTypography-root MuiTypography-h3"
+  />
+</DocumentFragment>
+`;

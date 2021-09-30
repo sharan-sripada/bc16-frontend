@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TabItem renders correctly should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="makeStyles-tabActive-1"
+  >
+    <svg
+      aria-hidden="true"
+      class="MuiSvgIcon-root makeStyles-activeIcon-6"
+      focusable="false"
+      viewBox="0 0 24 24"
+    >
+      <path
+        d="M14 6V4h-4v2h4zM4 8v11h16V8H4zm16-2c1.11 0 2 .89 2 2v11c0 1.11-.89 2-2 2H4c-1.11 0-2-.89-2-2l.01-11c0-1.11.88-2 1.99-2h4V4c0-1.11.89-2 2-2h4c1.11 0 2 .89 2 2v2h4z"
+        fill-rule="evenodd"
+      />
+    </svg>
+    <p
+      class="MuiTypography-root makeStyles-activeTextClass-4 MuiTypography-body1"
+    >
+      Find Jobs
+    </p>
+  </div>
+</DocumentFragment>
+`;

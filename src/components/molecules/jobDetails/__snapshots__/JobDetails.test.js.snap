@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Job Details renders correctly should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4"
+    style="width: 390px;"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+    >
+      <hr
+        class="MuiDivider-root makeStyles-hrBottom-6"
+      />
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+    >
+      <p
+        class="MuiTypography-root makeStyles-headingClass-1 MuiTypography-body1"
+      >
+        Description
+      </p>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+    >
+      <h6
+        class="MuiTypography-root makeStyles-descClass-4 MuiTypography-h6"
+      >
+        Open Text is seeking a talented...
+      </h6>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+    >
+      <hr
+        class="MuiDivider-root makeStyles-hrTop-5"
+      />
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+    >
+      <p
+        class="MuiTypography-root makeStyles-headingClass-1 MuiTypography-body1"
+      >
+        What it takes
+      </p>
+      <ul
+        class="makeStyles-ulClass-2"
+      >
+        <li
+          class="makeStyles-liClass-3"
+        >
+          <h6
+            class="MuiTypography-root makeStyles-descClass-4 MuiTypography-h6"
+          >
+            Excellent written and oral communication and presentation skills
+          </h6>
+        </li>
+      </ul>
+    </div>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,485 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`commute routes snapshot test Matches the snapshot 1`] = `
+<div>
+  <div
+    class="MuiBox-root MuiBox-root-12"
+    data-testid="job-commute-routes"
+  >
+    <div
+      class="MuiGrid-root makeStyles-root-1 MuiGrid-container MuiGrid-direction-xs-column"
+    >
+      <div
+        class="MuiGrid-root makeStyles-JobHeader-8 MuiGrid-item"
+      >
+        <div
+          class="MuiGrid-root makeStyles-root-15"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item"
+          >
+            <div
+              class="MuiAvatar-root MuiAvatar-circle makeStyles-smallMedia-16"
+            >
+              <img
+                alt="BMW company"
+                class="MuiAvatar-img"
+                src="https://upload.wikimedia.org/wikipedia/commons/4/44/BMW.svg"
+              />
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root makeStyles-columnMargin-14 MuiGrid-container MuiGrid-direction-xs-column"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item"
+            >
+              <h4
+                class="MuiTypography-root makeStyles-primary-17 MuiTypography-h4"
+              >
+                User Experience Designer
+              </h4>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item"
+            >
+              <h4
+                class="MuiTypography-root makeStyles-secondary-18 MuiTypography-h4"
+              >
+                BMW
+              </h4>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item"
+            >
+              <h4
+                class="MuiTypography-root makeStyles-secondary-18 MuiTypography-h4"
+              >
+                Hi-Tech City, Telangana
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item"
+      >
+        <hr
+          class="MuiDivider-root makeStyles-divider-2 MuiDivider-middle"
+        />
+      </div>
+      <div
+        class="MuiGrid-root makeStyles-BackButton-7 MuiGrid-container"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root makeStyles-backIcon-3"
+            data-testid="arrowBack"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"
+            />
+          </svg>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item"
+        >
+          <span
+            class="makeStyles-buttonLabel-4"
+          >
+            Commute Routes
+          </span>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root makeStyles-CommuteRoutes-5 MuiGrid-item"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-column"
+          data-testid="Routes-placeholder"
+        >
+          <img
+            alt="Commute Map"
+            height="135px"
+            src="https://i.stack.imgur.com/8kOXQ.jpg"
+            width="330px"
+          />
+          <div
+            class="MuiGrid-root makeStyles-container-23 MuiGrid-container"
+          >
+            <div
+              class="MuiGrid-root makeStyles-location-25 MuiGrid-item"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root makeStyles-icon-26"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="8"
+                />
+              </svg>
+              <p
+                class="MuiTypography-root makeStyles-text-27 MuiTypography-body1"
+              >
+                Hyderabd
+              </p>
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root makeStyles-icon-26 makeStyles-closeIcon-28"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root makeStyles-destination-24 MuiGrid-container"
+          >
+            <div
+              class="MuiGrid-root makeStyles-location-25 MuiGrid-item"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root makeStyles-icon-26"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zM7 9c0-2.76 2.24-5 5-5s5 2.24 5 5c0 2.88-2.88 7.19-5 9.88C9.92 16.21 7 11.85 7 9z"
+                />
+                <circle
+                  cx="12"
+                  cy="9"
+                  r="2.5"
+                />
+              </svg>
+              <p
+                class="MuiTypography-root makeStyles-text-27 MuiTypography-body1"
+              >
+                hyderabad
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item"
+      >
+        <hr
+          class="MuiDivider-root makeStyles-divider-2 MuiDivider-middle"
+        />
+      </div>
+      <div
+        class="MuiGrid-root makeStyles-CommuteOptions-6 MuiGrid-item"
+      >
+        <div
+          class="MuiGrid-root makeStyles-root-29 MuiGrid-container MuiGrid-direction-xs-column"
+          data-testid="commute-options"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-align-items-xs-center MuiGrid-justify-xs-space-between"
+          >
+            <h4
+              class="MuiTypography-root makeStyles-optionsLabel-30 MuiTypography-h4"
+            >
+              Your Options
+            </h4>
+            <div
+              data-testid="commuteRoutes"
+            >
+              <div
+                class="makeStyles-display-35"
+              >
+                <div>
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circle makeStyles-avatarSelected-39 MuiAvatar-colorDefault"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root makeStyles-root-36 makeStyles-iconSelected-38"
+                      data-testid="metro"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <circle
+                        cx="8.5"
+                        cy="14.5"
+                        r="1.5"
+                      />
+                      <circle
+                        cx="15.5"
+                        cy="14.5"
+                        r="1.5"
+                      />
+                      <path
+                        d="M12 2c-4 0-8 .5-8 4v9.5C4 17.43 5.57 19 7.5 19L6 20.5v.5h2l2-2h4l2 2h2v-.5L16.5 19c1.93 0 3.5-1.57 3.5-3.5V6c0-3.5-4-4-8-4zm0 2c3.51 0 4.96.48 5.57 1H6.43c.61-.52 2.06-1 5.57-1zM6 7h5v3H6V7zm12 8.5c0 .83-.67 1.5-1.5 1.5h-9c-.83 0-1.5-.67-1.5-1.5V12h12v3.5zm0-5.5h-5V7h5v3z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <div>
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circle makeStyles-avatarUnselected-40 MuiAvatar-colorDefault"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root makeStyles-root-36 makeStyles-iconUnselected-37"
+                      data-testid="bus"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M4 16c0 .88.39 1.67 1 2.22V20c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h8v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1.78c.61-.55 1-1.34 1-2.22V6c0-3.5-3.58-4-8-4s-8 .5-8 4v10zm3.5 1c-.83 0-1.5-.67-1.5-1.5S6.67 14 7.5 14s1.5.67 1.5 1.5S8.33 17 7.5 17zm9 0c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm1.5-6H6V6h12v5z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <div>
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circle makeStyles-avatarUnselected-40 MuiAvatar-colorDefault"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root makeStyles-root-36 makeStyles-iconUnselected-37"
+                      data-testid="car"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M18.92 5.01C18.72 4.42 18.16 4 17.5 4h-11c-.66 0-1.21.42-1.42 1.01L3 11v8c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h12v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-8l-2.08-5.99zM6.85 6h10.29l1.04 3H5.81l1.04-3zM19 16H5v-4.66l.12-.34h13.77l.11.34V16z"
+                      />
+                      <circle
+                        cx="7.5"
+                        cy="13.5"
+                        r="1.5"
+                      />
+                      <circle
+                        cx="16.5"
+                        cy="13.5"
+                        r="1.5"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <div>
+                  <div
+                    class="MuiAvatar-root MuiAvatar-circle makeStyles-avatarUnselected-40 MuiAvatar-colorDefault"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root makeStyles-root-36 makeStyles-iconUnselected-37"
+                      data-testid="bike"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M15.5 5.5c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zM5 12c-2.8 0-5 2.2-5 5s2.2 5 5 5 5-2.2 5-5-2.2-5-5-5zm0 8.5c-1.9 0-3.5-1.6-3.5-3.5s1.6-3.5 3.5-3.5 3.5 1.6 3.5 3.5-1.6 3.5-3.5 3.5zm5.8-10l2.4-2.4.8.8c1.3 1.3 3 2.1 5.1 2.1V9c-1.5 0-2.7-.6-3.6-1.5l-1.9-1.9c-.5-.4-1-.6-1.6-.6s-1.1.2-1.4.6L7.8 8.4c-.4.4-.6.9-.6 1.4 0 .6.2 1.1.6 1.4L11 14v5h2v-6.2l-2.2-2.3zM19 12c-2.8 0-5 2.2-5 5s2.2 5 5 5 5-2.2 5-5-2.2-5-5-5zm0 8.5c-1.9 0-3.5-1.6-3.5-3.5s1.6-3.5 3.5-3.5 3.5 1.6 3.5 3.5-1.6 3.5-3.5 3.5z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-justify-xs-space-between"
+            >
+              <h6
+                class="MuiTypography-root makeStyles-routeLabel-31 MuiTypography-h6"
+              >
+                Maredpally - Hitech City
+              </h6>
+              <h6
+                class="MuiTypography-root makeStyles-details-33 MuiTypography-subtitle2"
+              >
+                $50 • 56 mins
+              </h6>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item"
+            >
+              <div
+                class="makeStyles-type-42"
+                data-testid="transit-type"
+              >
+                <div>
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root makeStyles-root-41"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M4 16c0 .88.39 1.67 1 2.22V20c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h8v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1.78c.61-.55 1-1.34 1-2.22V6c0-3.5-3.58-4-8-4s-8 .5-8 4v10zm3.5 1c-.83 0-1.5-.67-1.5-1.5S6.67 14 7.5 14s1.5.67 1.5 1.5S8.33 17 7.5 17zm9 0c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm1.5-6H6V6h12v5z"
+                    />
+                  </svg>
+                </div>
+                <div
+                  class="makeStyles-desc-43"
+                >
+                  <h6
+                    class="MuiTypography-root makeStyles-transitDesc-46 MuiTypography-subtitle2"
+                  >
+                    Catch a bus 38X at 3.42 PM to Secunderabad bus stand.
+                    <span
+                      class="makeStyles-status-44"
+                    />
+                  </h6>
+                  <h6
+                    class="MuiTypography-root makeStyles-fare-47 MuiTypography-subtitle2"
+                  >
+                    15$
+                     • 
+                    20 mins
+                  </h6>
+                </div>
+              </div>
+              <div
+                class="makeStyles-type-42"
+                data-testid="transit-type"
+              >
+                <div>
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root makeStyles-root-41"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M13.5 5.5c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zM9.8 8.9L7 23h2.1l1.8-8 2.1 2v6h2v-7.5l-2.1-2 .6-3C14.8 12 16.8 13 19 13v-2c-1.9 0-3.5-1-4.3-2.4l-1-1.6c-.4-.6-1-1-1.7-1-.3 0-.5.1-.8.1L6 8.3V13h2V9.6l1.8-.7"
+                    />
+                  </svg>
+                </div>
+                <div
+                  class="makeStyles-desc-43"
+                >
+                  <h6
+                    class="MuiTypography-root makeStyles-transitDesc-46 MuiTypography-subtitle2"
+                  >
+                    Head north on St. Johns road.
+                    <span>
+                       
+                      5 mins
+                    </span>
+                  </h6>
+                </div>
+              </div>
+              <div
+                class="makeStyles-type-42"
+                data-testid="transit-type"
+              >
+                <div>
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root makeStyles-root-41"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <circle
+                      cx="8.5"
+                      cy="14.5"
+                      r="1.5"
+                    />
+                    <circle
+                      cx="15.5"
+                      cy="14.5"
+                      r="1.5"
+                    />
+                    <path
+                      d="M12 2c-4 0-8 .5-8 4v9.5C4 17.43 5.57 19 7.5 19L6 20.5v.5h2l2-2h4l2 2h2v-.5L16.5 19c1.93 0 3.5-1.57 3.5-3.5V6c0-3.5-4-4-8-4zm0 2c3.51 0 4.96.48 5.57 1H6.43c.61-.52 2.06-1 5.57-1zM6 7h5v3H6V7zm12 8.5c0 .83-.67 1.5-1.5 1.5h-9c-.83 0-1.5-.67-1.5-1.5V12h12v3.5zm0-5.5h-5V7h5v3z"
+                    />
+                  </svg>
+                </div>
+                <div
+                  class="makeStyles-desc-43"
+                >
+                  <h6
+                    class="MuiTypography-root makeStyles-transitDesc-46 MuiTypography-subtitle2"
+                  >
+                    Catch a blue line metro towards Raidurg.
+                    <span
+                      class="makeStyles-onTimeStatus-45"
+                    >
+                      On time
+                    </span>
+                  </h6>
+                  <h6
+                    class="MuiTypography-root makeStyles-fare-47 MuiTypography-subtitle2"
+                  >
+                    56$
+                     • 
+                    38 mins
+                  </h6>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item"
+            >
+              <h5
+                class="MuiTypography-root makeStyles-mapText-32 MuiTypography-h5"
+              >
+                View in google maps
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item"
+      >
+        <hr
+          class="MuiDivider-root makeStyles-LastDivider-11"
+        />
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item"
+      >
+        <div
+          class="MuiGrid-root makeStyles-buttonsStyle-10 MuiGrid-container MuiGrid-align-items-xs-center MuiGrid-justify-xs-space-around"
+        >
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-outlined makeStyles-base-48 makeStyles-medium-50 MuiButton-outlinedPrimary"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label"
+            />
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-base-48 makeStyles-medium-50 MuiButton-containedPrimary"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              Apply
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

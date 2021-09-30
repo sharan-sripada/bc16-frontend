@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Location renders correctly should match snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <h4
+      class="MuiTypography-root makeStyles-label-1 MuiTypography-h4"
+    >
+      label
+    </h4>
+  </div>
+</DocumentFragment>
+`;
