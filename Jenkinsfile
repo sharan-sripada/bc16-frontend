@@ -2,15 +2,15 @@ pipeline{
 	
 	agent{
 			
-		
-			    podTemplate(
+			kubernetes {
+			   
 
                 containers: [   
     containerTemplate(name: 'docker', image: 'docker:19.03', command: 'sleep', args: '99d',tty: 'true'),
                 ],volumes: [hostPathVolume(mountPath: '/var/run/docker.sock', hostPath: '/var/run/docker.sock')
                 
                     ]
-                )
+                
 		// 	    yaml '''
         // apiVersion: v1
         // kind: Pod
@@ -29,7 +29,7 @@ pipeline{
         //       hostPath:
         //         path: /var/run/docker.sock
         // '''
-        
+        }
 	}
 	
 		
