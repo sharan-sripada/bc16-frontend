@@ -14,7 +14,7 @@ podTemplate(label: 'bc16', containers: [
         //MY_KUBECONFIG = credentials('config-file')
     }
     withEnv([
-        "VERSION=${env.GIT_COMMIT}",
+        "VERSION=${env.BUILD_NUMBER}",
 
 
     ]){
@@ -58,7 +58,7 @@ podTemplate(label: 'bc16', containers: [
 
          stage ('Invoking helm build') {
         	
-		    build job: 'helm-bc16', parameters: [string(name: 'version', value: env.GIT_COMMIT)]
+		    build job: 'helm-bc16', parameters: [string(name: 'version', value: env.BUILD_NUMBER)]
 	    }
 
 
