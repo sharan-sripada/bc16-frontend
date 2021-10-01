@@ -6,10 +6,9 @@ pipeline{
 			   
 
                 containers: [   
-    containerTemplate(name: 'docker', image: 'docker:19.03', command: 'sleep', args: '99d',tty: 'true'),
-                ],volumes: [hostPathVolume(mountPath: '/var/run/docker.sock', hostPath: '/var/run/docker.sock')
-                
-                    ]
+    containerTemplate(name: 'docker', image: 'docker:19.03', args: '-v /var/run/docker.sock:/var/run/docker.sock',tty: 'true'),
+                ]
+                //,volumes: [hostPathVolume(mountPath: '/var/run/docker.sock', hostPath: '/var/run/docker.sock')]
                 
 		// 	    yaml '''
         // apiVersion: v1
