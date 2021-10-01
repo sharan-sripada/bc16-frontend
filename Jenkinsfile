@@ -9,11 +9,15 @@ podTemplate(label: 'bc16', containers: [
 
 
         environment {
-        VERSION = "${env.GIT_COMMIT}"
+        //VERSION = "${env.GIT_COMMIT}"
         DOCKERHUB_CREDENTIALS= credentials('dockerhub_token_sss')
         //MY_KUBECONFIG = credentials('config-file')
     }
+    withEnv([
+        "VERSION=$env.GIT_COMMIT",
 
+
+    ]){
     stage('Checkout Source') {
      
         git 'https://github.com/sharan-sripada/bc16-frontend.git'
@@ -52,6 +56,10 @@ podTemplate(label: 'bc16', containers: [
 	        }
 	    }
 
+         stage ('Invoking helm build') {
+        	
+		    build job: 'helm-bc16', parameters: [string(name: 'version', value: env.GIT_COMMIT)]
+	    }
 
 
 
@@ -60,6 +68,7 @@ podTemplate(label: 'bc16', containers: [
 
 
 
+    }
     }
 
 }
