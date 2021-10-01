@@ -1,65 +1,40 @@
-pipeline{
-	
-	agent{
-			
-			kubernetes {
-			   
+import groovy.transform.Field
 
-                containers: [   
-    containerTemplate(name: 'docker', image: 'docker:19.03', command: 'sleep', args: '99d',tty: 'true')
-                ]
-                ,volumes: [hostPathVolume(mountPath: '/var/run/docker.sock', hostPath: '/var/run/docker.sock')
-]
-                
-		// 	    yaml '''
-        // apiVersion: v1
-        // kind: Pod
-        // spec:
-        //   containers:
-        //   - name: docker
-        //     image: docker:19.03
-        //     command:
-        //     - cat
-        //     tty: true
-        //     volumeMounts:
-        //     - name: dockersock
-        //       mountPath: /var/run/docker.sock
-        //   volumes:
-        //     - name: dockersock
-        //       hostPath:
-        //         path: /var/run/docker.sock
-        // '''
-        }
-	}
-	
-		
-    environment {
+podTemplate(label: 'bc16', containers: [
+	containerTemplate(name: 'docker', image: 'docker:19.03', command: 'cat', ttyEnabled: true)],
+	volumes: [hostPathVolume(mountPath: '/var/run/docker.sock', hostPath: '/var/run/docker.sock')]
+) 
+{
+    node('bc16'){
+
+
+        environment {
         VERSION = "${env.GIT_COMMIT}"
         DOCKERHUB_CREDENTIALS= credentials('dockerhub_token_sss')
-        MY_KUBECONFIG = credentials('config-file')
+        //MY_KUBECONFIG = credentials('config-file')
     }
-	stages{
-	    stage('Checkout Source') {
-      steps {
+
+    stage('Checkout Source') {
+     
         git 'https://github.com/sharan-sripada/bc16-frontend.git'
-      }
+      
     }
 	    
 	    stage('Build Docker'){
          
-           steps{
+          
             container('docker'){
 
             sh 'docker build -t sharansripada/fe_jenkins:${VERSION} .'
             sh 'docker images'
             
-        }}
+        }
 	    }
 	    
 	    stage('Push Docker'){
-	        steps{
+	        
 	            container('docker'){
-	            sh 'ls'
+	            
 	            
 	            
 	            withCredentials([usernamePassword(credentialsId: 'dockerhub_token_sss', usernameVariable: 'username', passwordVariable: 'password')]) {
@@ -73,18 +48,18 @@ pipeline{
 	            sh 'docker push sharansripada/fe_jenkins:${VERSION}'
 	            }
 	           
-	        }
+	        
 	        }
 	    }
-               
-                    
-				
-	}    
-	post{
-	    always{
-	        container('docker'){
-	         sh 'docker logout'
-	    }}
-	}
+
+
+
+
+
+
+
+
+
+    }
 
 }
