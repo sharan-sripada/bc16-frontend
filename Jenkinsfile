@@ -14,7 +14,7 @@ podTemplate(label: 'bc16', containers: [
         //MY_KUBECONFIG = credentials('config-file')
     }
     withEnv([
-        "VERSION=$env.GIT_COMMIT",
+        "VERSION=${env.GIT_COMMIT}",
 
 
     ]){
