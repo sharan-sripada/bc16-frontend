@@ -1,4 +1,6 @@
-export const jobResource = `http://bc16.dev-apps.io:32000/job/api/v1/jobs`;
+const temp = window.location.origin;
+export const jobResource = `http://bc16.dev-apps.io:32002/job/api/v1/jobs`;
+
 // const jobResource = `http://localhost:9000/jobs`;
 import axios from "axios";
 
