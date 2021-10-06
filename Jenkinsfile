@@ -26,7 +26,7 @@ podTemplate(label: 'bc16', containers: [
             container('docker'){
 
             sh "docker build -t sharansripada/fe_jenkins:latest ."
-            sh "docker tag sharansripada/fe_jenkins:latest sharansripada/fe_jenkins:{BUILD_NUMBER}"
+            sh "docker tag sharansripada/fe_jenkins:latest sharansripada/fe_jenkins:${BUILD_NUMBER}"
 
             sh 'docker images'
             
