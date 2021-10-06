@@ -9,15 +9,11 @@ podTemplate(label: 'bc16', containers: [
 
 
         environment {
-        //VERSION = "${env.GIT_COMMIT}"
+       
         DOCKERHUB_CREDENTIALS= credentials('dockerhub_token_sss')
-        //MY_KUBECONFIG = credentials('config-file')
+        
     }
-    withEnv([
-        "VERSION=${env.BUILD_NUMBER}",
-
-
-    ]){
+    
     stage('Checkout Source') {
      
         git 'https://github.com/sharan-sripada/bc16-frontend.git'
@@ -29,7 +25,7 @@ podTemplate(label: 'bc16', containers: [
           
             container('docker'){
 
-            sh 'docker build -t sharansripada/fe_jenkins:${VERSION} .'
+            sh "docker build -t sharansripada/fe_jenkins:${BUILD_NUMBER} ."
             sh 'docker images'
             
         }
@@ -49,7 +45,7 @@ podTemplate(label: 'bc16', containers: [
   echo "username is $USERNAME"
 
 	            //sh 'echo $DOCKERHUB_CREDENTIALS_PSW | docker login -u $DOCKERHUB_CREDENTIALS_USR --password-stdin'
-	            sh 'docker push sharansripada/fe_jenkins:${VERSION}'
+	            sh "docker push sharansripada/fe_jenkins:${BUILD_NUMBER}"
 	            }
 	           
 	        
@@ -68,7 +64,7 @@ podTemplate(label: 'bc16', containers: [
 
 
 
-    }
+    
     }
 
 }
